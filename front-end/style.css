@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    background-image: url('images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(8px);
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgba(255, 140, 0, 0.7); /* laranja translúcido */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    backdrop-filter: blur(4px);
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: rgba(255, 140, 0, 0.9);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+th {
+    background-color: rgba(255, 140, 0, 0.7); /* laranja translúcido */
+    color: white;
+    backdrop-filter: blur(4px);
+}
+
+.fotos-rodape {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 32px;
+    position: static;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 24px 0;
+    background: none;
+}
+
+.foto-quadrada {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+#foto1 {
+    background-image: url('images/img_Gustavo.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.spacer {
+    height: 70px;
+    width: 100%;
+}
+  
